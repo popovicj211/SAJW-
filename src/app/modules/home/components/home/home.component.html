@@ -1,0 +1,49 @@
+<section id="sec">
+   <div id="headerBestProducts">
+      <div class="header__bg"></div>
+      <h1> The Best products </h1>
+  </div>
+   <div class="container" id="bestProductsContent">
+         <div class="row" id="bestProducts">
+           
+              <div id="bestProductsBlocks">
+               <div class="card block-watch watchesBestBlock"  *ngFor="let watch of watchesbest" >
+                  <img class="card-img-top" src="assets/images/{{ watch.src }}" alt="{{ watch.name }}">
+                  <div class="card-body">
+                    <h5 class="card-title"> {{ watch.brand }} {{ watch.name }} </h5>
+                            <ul>
+                               <li> Gender: {{ watch.gender }} </li>
+                               <li> Material of the watch: {{ watch.mofwatch }} </li>
+                               <li> Bracelet : {{ watch.bracelet }}   </li>
+                            </ul>
+                          <span class=" price"> {{ watch.price }} RSD </span>
+                  </div>
+                </div>
+              </div>    
+       </div>
+   </div>
+   <div class="header">
+    
+      <span class="leftLine"></span>
+      <h2> About watches </h2>
+      <span class="rightLine"></span>
+  </div>
+   <div class="container">
+      <div class="row">
+             <div id="watchesAbout">
+                      
+                      <div class="blockWatchesAbout">
+                              <img src="assets/images/switzerland.png" alt="About Swiss watches" >
+                              <a href="/aboutwatch"><h3> Swiss watches</h3>  </a>
+                              <p class="text-justify">Swiss watches have a magical appeal for a lot of people. They spend hundreds of dollars on a watch that is Swiss made even though they can buy a Chinese made timepiece for only 10 dollars.</p>
+                      </div>
+                      <div class="blockWatchesAbout" >
+                               <img  src="assets/images/japan.png" alt="About Japanese watches" >
+                               
+                                <a href="/aboutwatch"><h3> Japanase watches</h3>  </a>
+                                 <p class="text-justify">Equipped with award-winning in-house movements, Grand Seiko watches are amongst the most accurate mechanical timepieces in the world.</p>
+                      </div>
+            </div>
+     </div>
+  </div>
+</section>

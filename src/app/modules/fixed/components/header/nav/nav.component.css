@@ -1,0 +1,12 @@
+.nav li > a:hover {
+	background: none;
+}
+
+#navMenu li {
+	margin: 20px 20px;
+    font-size: 25px;
+    padding: 5px;
+}
+#navMenu li a{
+    color: #fff;
+}

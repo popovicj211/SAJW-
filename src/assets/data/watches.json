@@ -1,0 +1,92 @@
+ [
+    {
+         "id" : 1,
+         "name" : "Neptune",
+         "brand" : "Swiss Military",
+          "src" : "militaryswiss1_male.jpg",
+         "gender" : "Male",
+        "mofwatch" : "steel",
+        "bracelet" : "steel" ,
+        "price" : 30.591,
+        "type" : {
+             "id" : 1,
+             "name" : "Man"
+           },
+         "made": {
+              "id": 1,
+              "name" : "Swiss"
+         }
+      },
+      {
+        "id" : 2,
+        "name" : "Casio",
+        "brand" : "Casio",
+      "src" : "casio_female.jpg",
+        "gender" : "Female",
+       "mofwatch" : "metal",
+       "bracelet" : "leather" ,
+       "price" : 7.915,
+       "type" : {
+        "id" : 2,
+        "name" : "Woman"
+      },
+       "made": {
+        "id": 2,
+        "name" : "Japanese"
+   }
+     },
+     {
+      "id" : 3,
+      "name" : " Leandra",
+      "brand" : " Hanowa",
+       "src" : "hanowa_female.jpg",
+      "gender" : "Female",
+     "mofwatch" : "steel",
+     "bracelet" : "steel" ,
+     "price" : 18.893 ,
+     "type" : {
+      "id" : 2,
+      "name" : "Woman"
+      },
+     "made": {
+      "id": 1,
+      "name" : "Swiss"
+    }
+   },
+   {
+    "id" : 4,
+    "name" : "Astrom GPS",
+    "brand" : "Seiko",
+      "src" : "seiko_male.jpg",
+    "gender" : "Male",
+   "mofwatch" : "titanium",
+   "bracelet" : "gum",
+   "price" : 279.103 ,
+   "type" : {
+    "id" : 1,
+    "name" : "Man"
+    }, 
+    "made": {
+      "id": 2,
+      "name" : "Japanese"
+      }
+ },
+ {
+  "id" : 5,
+  "name" : "Phantom",
+  "brand" : "Swiss Military",
+ "src" : "militaryswiss2_male.jpg",
+  "gender" : "Male",
+ "mofwatch" : "steel",
+ "bracelet" : "leather", 
+ "price" : 30.591 ,
+ "type" : {
+  "id" : 1,
+  "name" : "Man"
+  }, 
+  "made": {
+    "id": 1,
+    "name" : "Swiss"
+  }
+ }
+]

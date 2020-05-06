@@ -1,0 +1,48 @@
+ <section>
+   <div class="header">
+      <span class="leftLine"></span>
+      <h2> Watches  </h2>
+      <span class="rightLine"></span>
+  </div>
+   <div class="container">
+      <div class="row mb-5">
+           <div class="col-md-9 order-2">
+                 <div class="row">
+                         <div class="col-md-12 mb-5">
+                               <div class="float-md-left mb-4">  </div>
+              
+                         </div>
+                 </div>
+                  <div class="row mb-5" id="products">
+                           <app-product *ngFor="let watch of watchesarr" [watch]="watch" > </app-product>
+             
+                  </div> 
+          </div>
+          <div class="col-md-3 mt-3 order-1 mb-5 mb-md-0">
+                  <div class="border p-4 rounded mb-4">
+                          
+                        <h3 class="mb-3 h6 text-uppercase text-black d-block"> Gender: </h3>
+                        <ul class="list-unstyled mb-0" id="categories">
+                                  <li class="mb-1"><a   [routerLink]="['/watches/gender' , 'men']"  (click)="cat(1)"  class="d-flex"><span>Men</span> </a></li>
+                                 <li class="mb-1"><a   [routerLink]="['/watches/gender' , 'women']"  (click)="cat(2)" class="d-flex"><span>Women</span> </a></li>  
+              
+                        </ul>
+                 </div>
+                  <div class="border p-4 rounded mb-4">
+
+                           <h3 class="mb-3 h6 text-uppercase text-black d-block"> Made in: </h3>
+                                       <ul class="list-unstyled mb-0" id="categoriesMadein">
+                                                <li class="mb-1"><a   [routerLink] ="['/watches/made' , 'swiss']"  (click)="catMade(1)"  class="d-flex"><span> Swiss </span> </a></li>
+                                                 <li class="mb-1"><a   [routerLink] ="['/watches/made' , 'japanese']"  (click)="catMade(2)" class="d-flex"><span> Japanese </span> </a></li>     
+                                      </ul>
+                  </div>
+                   
+         
+        </div>
+   
+
+
+
+    </div>
+  </div>   
+</section>     

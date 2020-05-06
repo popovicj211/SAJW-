@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Philosopher', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color : #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color : #ff0000;
+}
+
+ul li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+        text-align: center;
+        color: #000;
+}
+
+.header{
+    width:100%;
+    background-color: #0000ff;
+    padding: 5px;
+    position: relative;
+}
+.header h1 , .header h2 ,.header h3{
+        color: #fff;
+}
+
+.leftLine{
+position: absolute;
+    top: 27px;
+    left: 595px;
+    width: 55px;
+    height: 2px;
+ background-color: #fff;
+}
+.rightLine{
+    position: absolute;
+        top: 27px;
+        right: 595px;
+        width: 55px;
+        height: 2px;
+      background-color: #fff;
+ }

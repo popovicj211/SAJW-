@@ -1,0 +1,27 @@
+#aboutwatches {
+	padding: 30px 0px;
+	text-align: center;
+	font-size: 30px;
+}
+#aboutwatches .card-title{
+      color: #000;
+}
+.cat {
+	height: 500px;
+    background-size: cover;
+   margin: 20px;
+   -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+   border-radius: 10px;
+   position: relative;
+}
+
+
+.imgC{
+    width: 400px;
+    margin: 10px 85px;
+}
+.card p {
+     font-size: 18px;
+     text-align: justify;
+}
